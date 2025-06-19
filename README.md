@@ -18,12 +18,6 @@ A modern currency converter app built using **React** and **Tailwind CSS**, inte
 
 ### 🌐 Live Demo
 
-👉 [CurrenSync on GitHub Pages](https://your-username.github.io/CurrenSync)
+👉 [CurrenSync on GitHub Pages](https://adarshsingh-1.github.io/CurrenSync)
 
-### 📸 Preview
 
-_Add a screenshot here if you have one._
-
----
-
-Let me know if you want help writing the `README.md`, adding a license, or customizing the live preview.
