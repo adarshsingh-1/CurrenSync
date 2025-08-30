@@ -16,4 +16,3 @@ A modern currency converter app built using **React** and **Tailwind CSS**, inte
 - Exchange Rate API
 - Vite
 
-<img width="1680" alt="Screenshot 2025-07-07 at 10 23 28" src="https://github.com/user-attachments/assets/5d9c2a66-f0a8-4663-b3b7-c391c9294fc0" />
