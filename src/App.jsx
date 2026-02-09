@@ -28,11 +28,11 @@ function App() {
   };
 
   return (
-    <div className="w-full h-screen bg-gray-100 flex items-center justify-center">
-      <div className="w-full h-[90%] max-h-[700px] flex rounded-lg overflow-hidden shadow-2xl">
+    <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4 sm:p-6 lg:p-10">
+      <div className="w-full max-w-[1400px] min-h-[70vh] flex flex-col md:flex-row rounded-lg overflow-hidden shadow-2xl">
         
         
-        <div className="w-1/2 h-full">
+        <div className="w-full md:w-1/2 h-64 sm:h-80 md:h-auto">
           <img
             src="https://images.pexels.com/photos/3532540/pexels-photo-3532540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt="Currency"
@@ -41,13 +41,13 @@ function App() {
         </div>
 
         
-        <div className="w-1/2 h-full p-10 bg-white flex items-center justify-center">
+        <div className="w-full md:w-1/2 p-6 sm:p-10 md:p-12 lg:p-16 bg-white flex items-center justify-center">
           <form
             onSubmit={(e) => {
               e.preventDefault();
               convert();
             }}
-            className="w-full max-w-md space-y-6"
+            className="w-full max-w-2xl space-y-8"
           >
             
             <InputBox
